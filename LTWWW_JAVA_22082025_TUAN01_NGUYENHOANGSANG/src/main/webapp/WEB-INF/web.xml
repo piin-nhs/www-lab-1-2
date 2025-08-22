@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
+         version="6.0">
+    <context-param>
+        <param-name>projectName</param-name>
+        <param-value>LTWWW Java 2025</param-value>
+    </context-param>
+
+    <servlet>
+        <servlet-name>bai4Servlet</servlet-name>
+        <servlet-class>iuh.fit.ltwww_java_22082025_tuan01_nguyenhoangsang.Bai4Servlet</servlet-class>
+        <init-param>
+            <param-name>author</param-name>
+            <param-value>Nguyen Hoang Sang</param-value>
+        </init-param>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>bai4Servlet</servlet-name>
+        <url-pattern>/bai4-servlet</url-pattern>
+    </servlet-mapping>
+</web-app>
