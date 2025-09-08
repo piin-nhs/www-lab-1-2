@@ -1,10 +1,9 @@
-package iuh.fit.ltwww_java_22082025_tuan02_nguyenhoangsang;
+package iuh.fit.ltwww_java_22082025_tuan02_nguyenhoangsang.filter;
 
 import jakarta.servlet.Filter;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpFilter;
-import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
